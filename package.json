@@ -1,0 +1,25 @@
+{
+  "name": "netgear-r6400-port-forwarding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdbrowndev/netgear-r6400-port-forwarding.git"
+  },
+  "keywords": [
+    "netgear"
+  ],
+  "author": "Jordan Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdbrowndev/netgear-r6400-port-forwarding/issues"
+  },
+  "homepage": "https://github.com/jdbrowndev/netgear-r6400-port-forwarding#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
