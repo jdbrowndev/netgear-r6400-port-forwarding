@@ -13,7 +13,7 @@ A Dockerfile is included to build the script's environment.
 The router's IP, user, and password are required environment variables.
 
 ```
-docker run -it --name port-forwarding \
+docker run -it --name port-forwarding --rm \
         -e ROUTER_IP=192.168.1.1 \
         -e ROUTER_USER=(user) \
         -e ROUTER_PASS=(pass) \
